@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Meridian · Logistics Route Optimization</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<aside class="side">
+  <div class="brand"><svg width="28" height="28" viewBox="0 0 28 28" aria-hidden="true"><circle cx="14" cy="14" r="12" fill="none" stroke="#7fb4d8" stroke-width="1.5"/><path d="M2 14h24M14 2c-5 4-5 20 0 24M14 2c5 4 5 20 0 24" fill="none" stroke="#7fb4d8" stroke-width="1"/><circle cx="20" cy="9" r="2.4" fill="#f2a93b"/></svg><div><b>Meridian</b><span>Route optimization</span></div></div>
+  <nav id="nav">
+    <a href="#overview">Overview</a><a href="#optimizer">Route optimizer</a><a href="#lab">Comparison lab</a>
+    <a href="#manage">Network manager</a><a href="#analytics">Analytics</a><a href="#learn">Algorithms explained</a>
+  </nav>
+  <div class="ctl">
+    <label for="netSel">Network scenario</label><select id="netSel"></select>
+    <label for="metricSel">Optimization metric</label>
+    <select id="metricSel"><option value="cost">Cost (USD per batch)</option><option value="time">Delivery time (hours)</option><option value="distance">Distance (km)</option></select>
+    <p class="hint" id="netDesc"></p>
+  </div>
+</aside>
+<main>
+  <header class="top"><h1 id="title"></h1><div id="badges"></div></header>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <div id="view"></div>
+</main>
+<script src="js/charts.js"></script>
+<script src="js/map.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
