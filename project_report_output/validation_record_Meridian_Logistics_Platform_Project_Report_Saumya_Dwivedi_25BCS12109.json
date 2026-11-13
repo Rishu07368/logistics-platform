@@ -1,0 +1,23 @@
+{
+  "validated_at": "2026-11-13T21:45:49+05:30",
+  "pdf": "C:\\Users\\srish\\Downloads\\logistics-platform\\project_report_output\\Meridian_Logistics_Platform_Project_Report_Saumya_Dwivedi_25BCS12109.pdf",
+  "docx": "C:\\Users\\srish\\Downloads\\logistics-platform\\project_report_output\\Meridian_Logistics_Platform_Project_Report_Saumya_Dwivedi_25BCS12109.docx",
+  "pdf_pages": 23,
+  "main_chapters": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "embedded_images": 18,
+  "figure_captions": 16,
+  "table_captions": 13,
+  "docx_tables": 17,
+  "document_bytes": {
+    "pdf": 1863365,
+    "docx": 1733183
+  },
+  "errors": [],
+  "result": "PASS"
+}

@@ -1,0 +1,23 @@
+{
+  "validated_at": "2026-11-13T21:29:45+05:30",
+  "pdf": "C:\\Users\\srish\\Downloads\\logistics-platform\\project_report_output\\Meridian_Logistics_Platform_Project_Report_Rishabh_Singh_25BCS11466.pdf",
+  "docx": "C:\\Users\\srish\\Downloads\\logistics-platform\\project_report_output\\Meridian_Logistics_Platform_Project_Report_Rishabh_Singh_25BCS11466.docx",
+  "pdf_pages": 23,
+  "main_chapters": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "embedded_images": 18,
+  "figure_captions": 16,
+  "table_captions": 13,
+  "docx_tables": 17,
+  "document_bytes": {
+    "pdf": 1862772,
+    "docx": 1733156
+  },
+  "errors": [],
+  "result": "PASS"
+}
